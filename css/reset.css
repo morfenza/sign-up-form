@@ -4,14 +4,34 @@ body {
   min-height: 100vh;
 }
 
+.background-link {
+  color: white;
+  font-size: small;
+
+  position: absolute;
+  transform: translate(-30%, 0);
+  left: 40%;
+  bottom: 0;
+
+  padding: 10px;
+}
+
+.background-link a,
+.background-link a:visited {
+  color: white;
+}
+
 
 .left-div {
-  flex: 1.3;
+  flex: 1.5;
   border: 1px solid blue;
+
   background-image: url(../assets/haliew-west-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  position: relative;
 }
 
 .right-div {
