@@ -14,6 +14,19 @@ body {
   min-height: 100vh;
 }
 
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 1.35rem;
+  font-weight: bold;
+
+  margin-bottom: 25px;
+}
+
 header {
   border: 1px solid blue;
 
@@ -22,8 +35,57 @@ header {
   line-height: 1.3rem;
 }
 
+input {
+  margin-top: 5px;
+
+  border: 1px solid #E5E7EB;
+  border-radius: 0.2rem;
+
+  width: 250px;
+  height: 25px;
+  padding: 5%;
+
+  box-sizing: border-box;
+}
+
+input:focus {
+  border: 1px solid #224FD2;
+  border-radius: 0.2rem;
+
+  -webkit-box-shadow: 4px 5px 5px 0px #0000007c;
+  box-shadow: 4px 5px 5px 0px #0000007c;
+}
+
+input:invalid {
+  border: 1px solid #c90808;
+  border-radius: 0.2rem;
+}
+
+label {
+  font-size: 0.65rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
 section {
   display: flex;
+}
+
+section div:first-child {
+  margin-right: 75px;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  background-color: white;
+  -webkit-box-shadow: 0px 3px 7px 0px #7c7c7c8a;
+  box-shadow: 0px 3px 5px 0px #7c7c7c65;
+  
+  padding: 3% 5%;
 }
 
 footer, 
@@ -52,6 +114,11 @@ p,
   color: white;
 }
 
+.email-num {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .left-div {
   flex: 1.5;
   border: 1px solid blue;
@@ -72,7 +139,7 @@ p,
   flex-direction: column;
   justify-content: center;
 
-  background-color: #F9FAFB;
+  background-color: #fbfbfb ;
 
   position: relative;
 }
