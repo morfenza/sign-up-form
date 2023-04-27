@@ -1,71 +1,48 @@
-* {
-  box-sizing: border-box;
-}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-@font-face {
-  font-family: norse-bold;
-  src: url(../fonts/norse-bold-webfont.woff2);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  margin: 0;
-  display: flex;
-  min-height: 100vh;
+	line-height: 1;
 }
-
-.odin-logo img {
-  height: 100%;
+ol, ul {
+	list-style: none;
 }
-
-.odin-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  padding: 1%;
-
-  position: relative;
-  top: 20%;
-
-  background-color: #00000066;
-  height: 15vh;
-
-  font-family: norse-bold, sans-serif;
-  color: white;
-  font-size: 5.5rem;
+blockquote, q {
+	quotes: none;
 }
-
-.background-link {
-  color: white;
-  font-size: small;
-
-  position: absolute;
-  transform: translate(-30%, 0);
-  left: 40%;
-  bottom: 0;
-
-  padding: 10px;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-.background-link a,
-.background-link a:visited {
-  color: white;
-}
-
-
-.left-div {
-  flex: 1.5;
-  border: 1px solid blue;
-
-  background-image: url(../assets/haliew-west-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  position: relative;
-}
-
-.right-div {
-  flex: 2;
-  border: 1px solid red;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
