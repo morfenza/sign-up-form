@@ -167,7 +167,6 @@ footer a:visited {
 
 .left-div {
   flex: 1.5;
-  border: 1px solid blue;
 
   background-image: url(../assets/haliew-west-unsplash.jpg);
   background-repeat: no-repeat;
@@ -179,7 +178,6 @@ footer a:visited {
 
 .right-div {
   flex: 2;
-  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
