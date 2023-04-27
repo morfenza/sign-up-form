@@ -123,6 +123,18 @@ p,
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+  margin-left: 5%;
+
+  font-weight: bold;
+}
+
+footer a,
+footer a:visited {
+  color: #596D48;
+  text-decoration: none;
+}
+
 .background-link {
   color: white;
   font-size: small;
