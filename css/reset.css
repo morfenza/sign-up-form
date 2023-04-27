@@ -1,7 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: norse-bold;
+  src: url(../fonts/norse-bold-webfont.woff2);
+}
+
 body {
   margin: 0;
   display: flex;
   min-height: 100vh;
+}
+
+.odin-logo img {
+  height: 100%;
+}
+
+.odin-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1%;
+
+  position: relative;
+  top: 20%;
+
+  background-color: #00000066;
+  height: 15vh;
+
+  font-family: norse-bold, sans-serif;
+  color: white;
+  font-size: 5.5rem;
 }
 
 .background-link {
