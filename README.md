@@ -1,6 +1,3 @@
-# sign-up-form
-Project: Sign-up Form from The Odin Project 
-
 # Sign-up Form
 Project: Sign-up Form from [The Odin Project](https://www.theodinproject.com/about)
 
